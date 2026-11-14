@@ -100,7 +100,7 @@ public class AssignmentOne {
             System.out.println("3. Modify appointment time");
             System.out.println("4. Show all appointments");
             System.out.println("5. Exit");
-            System.out.print("Enter option: ");
+            System.out.print("Please enter your menu choice: ");
             int opt = sc.nextInt();
             sc.nextLine();
 
