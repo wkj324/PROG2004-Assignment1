@@ -1,9 +1,8 @@
 /**
- * AppointmentManager class
- * Manage the list of appointments
- * Functions: add, sort, filter, cancel, modify time, print all appointments
- * Clinic time range: 08:00‑16:00, only 30‑minute time slots are permitted
+ * AppointmentManager manages all appointment records.
+ * Check new time format and range before updating appointment
  */
+
 import java.util.ArrayList;
 import java.util.Collections;
 
