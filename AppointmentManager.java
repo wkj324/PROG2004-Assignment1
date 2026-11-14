@@ -144,8 +144,9 @@ public class AppointmentManager {
         return false;
     }
 
-    /**
+       /**
      * Modify appointment time with full time validation
+     * Check new time format and range before updating appointment
      * @param patientName patient name
      * @param date original date
      * @param oldTime original time
