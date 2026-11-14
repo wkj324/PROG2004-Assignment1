@@ -102,8 +102,9 @@ public class AppointmentManager {
         return result;
     }
 
-    /**
+     /**
      * Cancel appointment by patient name, date, time
+     * Test: verify system feedback when cancelling non-existing appointment
      * @param patientName patient name
      * @param date appointment date
      * @param time appointment time
