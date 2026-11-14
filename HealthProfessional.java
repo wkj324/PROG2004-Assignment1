@@ -2,7 +2,9 @@
  * Superclass HealthProfessional
  * Abstract class, cannot be instantiated directly
  * Store common data for all health professionals: numeric id, name, working days
+ * This abstract class defines common attributes for all health workers.
  */
+
 public abstract class HealthProfessional {
     private int id;
     private String name;
